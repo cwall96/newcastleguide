@@ -29,13 +29,13 @@ body {
 .site-header, .site-footer {
     background-color: var(--primary-color);
     color: var(--secondary-bg-color);
-    padding: 30px 0; /* Increased padding */
+    padding: 25px 0; /* Increased padding */
     text-align: center;
 }
 
 .site-header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 300;
 }
 
@@ -65,7 +65,8 @@ body {
 
 .category-section h2 {
     color: var(--primary-color);
-    margin-bottom: 30px; /* Increased margin */
+    margin-bottom: 20px; /* Increased margin */
+    font-size: 2rem; 
 }
 
 .attraction {
@@ -73,7 +74,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: auto; /* Adjusted for consistency */
-    overflow: visible
+    overflow: visible;
+    padding-bottom: 50px;
 }
 
 .attraction img {
